@@ -1,0 +1,6 @@
+framework module EOSDK {
+  umbrella header "EOSDK.h"
+
+  export *
+  module * { export * }
+}

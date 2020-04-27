@@ -1,0 +1,177 @@
+/*
+ SGLocalizable.strings
+ SandClass
+ 
+ Created by lijing on 2017/10/11.
+ Copyright © 2017年 SandClass Game. All rights reserved.
+ */
+//网络问题
+"sg_hader_null"  = "公共参数为空！";
+"sg_Net_error"   = "当前网络不可用！";
+"sg_params_null" = "请求参数为空！";
+
+"sg_Net_NoData"  = "服务器无返回数据";
+"sg_Net_DataSerialFailed" = "服务器数据解析异常";
+"sg_Net_NSURLErrorUnknown" = "未知网络错误";
+"sg_Net_NSURLErrorCancelled" = "网络请求取消";
+"sg_Net_NSURLErrorBadURL" = "bad URL";
+"sg_Net_NSURLErrorTimeOut" = "请求超时";
+"sg_Net_NSURLErrorCannotFindHost" = "请求不能找到Host";
+"sg_Net_NSURLErrorCannotConnectToHost" = "请求不能连接到Host";
+"sg_Net_NSURLErrorNetworkConnectionLost" = "网络连接丢失";
+"sg_Net_NSURLErrorDNSLookupFailed" = "DNS查询失败";
+"sg_Net_NSURLErrorNotConnectedToInternet" = "未连接到网络";
+"sg_Net_NSURLErrorSecureConnectionFailed" = "安全连接失败";
+"sg_Net_NSURLErrorServerCertificateHasBadDate" = "服务器证书时间错误";
+"sg_Net_NSURLErrorServerCertificateUntrusted" = "访问出错,请正确设置本机系统日期时间后重试";
+"sg_Net_NSURLErrorCannotLoadFromNetwork" = "不能从网络加载";
+
+//初始化
+"sg_init_Debug_Mode"                = "当前为Debug模式";
+"sg_init_gamecode_null"             = "初始化接口GameCode不能为空";
+"sg_init_gamekey_null"              = "初始化接口GameKey不能为空";
+"sg_init_gamename_null"         	= "初始化接口GameName不能为空";
+"sg_init_gamelanguage_null"         = "初始化接口GameLanguage不能为空";
+
+
+//客服界面
+"sg_cs_tip"				 = "如果您有疑问，请联系我们，谢谢！";
+"sg_cs_name"			 = "客服中心";
+"sg_cs_top_label"		 = "Customer service email";
+"sg_cs_email"			 = "sgservice88@gmail.com";
+"sg_cs_fbFans"			 = "https://www.facebook.com/Endless-War-125233481492378/";
+
+//登录
+"sg_login_serverReturnData_error"   = "登录获取服务器数据失败";
+"sg_login_server_return_data_incomplete"  = "返回的数据缺失！";
+"sg_login_userName"					= "请输入邮箱";
+"sg_login_pwd"						= "请输入密码";
+
+"sg_login_login" = "登录";
+
+// 第三方登录
+"sg_foreign_login_id_null"			 = "获取Facebook Id失败，请重试。";
+"sg_foreign_login_view_controll_nil" = "无法正常转跳到Facebook,请检查调用参数！";
+"sg_is_not_facebook_user"			 = "当前用户为非Facebook账号登录，请使用Facebook账号登录！";
+"sg_get_facebook_user_fail"			 = "获取好友失败";
+
+
+//首次登录界面
+"sg_login_username_null" = "帐号不能为空";
+"sg_login_username_invalid" = "请输入正确的邮箱账号！";
+"sg_login_password_null" = "请输入密码";
+"sg_login_password_error" = "密码错误";
+"sg_login_failed" = "用户名或密码错误";
+"sg_login_text" = "登录";
+
+
+//再次登录
+"sg_auto_guest_login_comforn"  = "确认";
+"sg_login2_otherLogin" = "其他帐号登录";
+
+"sg_auto_login_loading"	  = "登录中……";
+"sg_auto_login_swith_account" = "切换账号";
+"sg_auto_login_error"		  = "登录失败";
+
+
+//登录完成欢迎界面
+"sg_welcome_tip" = " ,欢迎回来!";
+
+//facebook 分享
+"sg_fb_share_url"       = "http://share.sgplayer.com/emdxc/shares_fb.html";
+
+
+"sg_fb_friends_fail"    = "获取好友失败！";
+
+// 提示绑定
+"sg_tip_title" = "温馨提示";
+"sg_confirm" = "确定";
+"sg_system_error" = "系统繁忙，请稍后再试";
+"sg_error_network" = "网络连接失败";
+
+"sg_bind_account_tip" = "当前为游客账号，为了您的账号安全请在游戏内绑定正式账号！";
+"sg_email_subject"    = "游戏反馈";
+
+"sg_timeOut_network" = "请求超时,请稍后再试";
+"sg_cancel" = "取消";
+"sg_continueGame" = "继续游戏";
+"sg_bind_phone_tip" = "为保障您的游戏数据安全，请尽快绑定手机";
+"sg_bind_account_pay" = "需要绑定帐号才能充值";
+
+//重置密码1
+"sg_send_reset_pwd_email" = "重置密码";
+"sg_reset_account" = "请输入要找回的邮箱帐号";
+"sg_reset_emailTip" = "请输入邮箱账号";
+"sg_reset_email_success"  = "已经成功发送重置密码邮件到账号邮箱，请到邮件中进行密码修改！";
+"sg_reset_email_comform_title"  = "确认";
+
+
+//注册
+"sg_reg_user_name"  = "请输入邮箱";
+"sg_reg_pwd"		= "请输入密码";
+"sg_reg_re_pwd"		= "请再次输入密码";
+"sg_reg_button"		= "注册";
+
+"sg_reg_email_empty"			= "请输入要注册的邮箱";
+"sg_reg_email_format_error" 	= "邮箱不正确！";
+"sg_reg_pwd_empty"				= "密码或确认密码不能为空";
+"sg_reg_pwd_not_same"			= "密码和确认密码不一致";
+"sg_reg_pwd_format_error"		= "密码长度必须为6-20个字符";
+"sg_reg_fail"					= "注册失败！请确保网络通畅！";
+
+//绑定
+"sg_bind_button"	= "绑定";
+
+
+//游客充值
+"sg_touristPay_on_tip" = "为了您的帐号使用安全,建议您绑定账号后再继续";
+"sg_touristPay_on_continue" = "继续充值";
+
+"sg_touristPay_off_tip" = "为了您的帐号使用安全,建议您绑定账号后再继续";
+"sg_touristPay_off_continue" = "绑定手机";
+
+//支付
+"sg_pay_userInfo_null" = "帐号信息不能为";
+"sg_pay_exist_unFinishOrder" = "当前支付未完成,请重新进入游戏或联系客服";
+
+"sg_pay_alert_limitIAP_tip"  = "程序内购买已禁用";
+"sg_pay_alert_limitIAP_sulotion" = "请到 '设置' -> '通用' -> '访问限制' -> '启用访问限制' ->打开'App内购买项目'开关";
+"sg_pay_alert_limitIAP_cancel" = "确定";
+"sg_pay_alert_limitIAP_agree" = "确定";
+"sg_pay_alert_limitIAP_goSetting" = "确定";
+
+
+"sg_pay_roleInfo_null_roleId"    = "payWithRoleInfo...方法roleInfo参数的roleId未传值";
+"sg_pay_roleInfo_null_roleName"  = "payWithRoleInfo...方法roleInfo参数的roleName未传值";
+"sg_pay_roleInfo_null_roleLevel" = "payWithRoleInfo...方法roleInfo参数的roleLevel未传值";
+"sg_pay_roleInfo_null_serverId"  = "payWithRoleInfo...方法roleInfo参数的serverId未传值";
+"sg_pay_roleInfo_null_serverName"= "payWithRoleInfo...方法roleInfo参数的serverName未传值";
+
+"sg_pay_payInfo_null_gameOrderNO"= "payWithRoleInfo...方法payInfo参数的gameOrderNO未传值";
+"sg_pay_payInfo_null_productId"  = "payWithRoleInfo...方法payInfo参数的productId未传值";
+"sg_pay_payInfo_null_productName"= "payWithRoleInfo...方法payInfo参数的productName未传值";
+"sg_pay_payInfo_null_productDesc"= "payWithRoleInfo...方法payInfo参数的productDesc未传值";
+"sg_pay_payInfo_null_productExt" = "payWithRoleInfo...方法payInfo参数的productExt未传值";
+"sg_pay_payInfo_null_price"      = "payWithRoleInfo...方法payInfo参数的price未传值";
+"sg_pay_payInfo_null_amount"     = "payWithRoleInfo...方法payInfo参数的amount未传值";
+
+"sg_pay_request_order"           = "请求支付信息";
+"sg_pay_request_order_success"   = "获取订单成功";
+"sg_pay_request_order_null"      = "获取订单返回数据错误";
+"sg_pay_request_order_fail"      = "获取订单返回数据缺失";
+"sg_pay_request_iap_error_tip"   = "购买失败";
+"sg_pay_iap_success"			 = "购买成功";
+
+"sg_pay_request_iap_error"       = "获取当前内购productID信息发生错误(可能原因:1.苹果返回数据失败，2.当前productID在苹果后台没有对应的信息) -> 1.确认网络正常,2.确认传入的内购productID无误,3.确认当前设备没有设置网络代理";
+"sg_pay_request_iap_ReceiveResponse_error"     = "无法获取到当前内购productID信息 -> 1.确认iTunes Connect后台该内购项状态正确，2.确认网络正常,3.确认当前设备没有设置网络代理,4.确认iTunes connect协议,税务,银行业务完全设置";
+"sg_pay_iap_restored"            = "已经购买过该商品,正在为你恢复";
+"sg_pay_transaction_error"       = "1.确保在真机上测试,2.确保当前测试机没有登有正式Apple ID，请使用沙盒帐号测试";
+"sg_pay_iap_verify_null"         = "订单校验返回数据错误";
+"sg_pay_iap_verify_buzy"         = "订单校验繁忙，请稍后再试";
+"sg_pay_iap_verify_fail"         = "订单校验数据缺失";
+"sg_pay_yeepay_submit_success"   = "充值请求提交成功，请耐心等待发货";
+"sg_pay_re_submit_success"       = "检查到未发货的订单，\n正在进行发货";
+
+"sg_pay_price_currency"        = "元";
+"sg_pay_iap_uploadLog"         = "购买失败,\n正在上传日志";
+

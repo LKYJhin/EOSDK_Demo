@@ -1,0 +1,180 @@
+/*
+ SGLocalizable.strings
+ SandClass
+ 
+ Created by lijing on 2017/10/11.
+ Copyright © 2017年 SandClass Game. All rights reserved.
+ */
+//网络问题
+"sg_hader_null" 			= "System error";
+"sg_Net_error" 				= "Network not available";
+"sg_params_null" 			= "System error";
+
+"sg_Net_NSURLErrorUnknown" 						= "Network error";
+"sg_Net_NSURLErrorCancelled" 					= "Network error";
+"sg_Net_NSURLErrorBadURL" 						= "Network error";
+"sg_Net_NSURLErrorTimeOut" 						= "Network error";
+"sg_Net_NSURLErrorCannotFindHost" 				= "Network error";
+"sg_Net_NSURLErrorCannotConnectToHost" 			= "Network error";
+"sg_Net_NSURLErrorNetworkConnectionLost" 		= "Network error";
+"sg_Net_NSURLErrorDNSLookupFailed" 				= "Network error";
+"sg_Net_NSURLErrorNotConnectedToInternet" 		= "Network error";
+"sg_Net_NSURLErrorSecureConnectionFailed" 		= "Network error";
+"sg_Net_NSURLErrorServerCertificateHasBadDate" 	= "Network error";
+"sg_Net_NSURLErrorServerCertificateUntrusted" 	= "Network error";
+"sg_Net_NSURLErrorCannotLoadFromNetwork" 		= "Network error";
+"sg_Net_NoData" 								= "Server not responding ";
+"sg_Net_DataSerialFailed" 						= "Server not responding ";
+
+//初始化
+"sg_init_Debug_Mode" 			= "Debug mode is on";
+"sg_init_gamecode_null" 		= "System error";
+"sg_init_gamekey_null" 			= "System error";
+"sg_init_gamename_null" 		= "System error";
+"sg_init_gamelanguage_null" 	= "System error";
+
+
+//客服界面
+"sg_cs_tip" 			= "Contact us if you have any questions";
+"sg_cs_name" 			= "Customer help";
+"sg_cs_top_label"		 = "Customer service email";
+"sg_cs_email"			 = "sgservice88@gmail.com";
+"sg_cs_fbFans"			 = "https://www.facebook.com/Endless-War-125233481492378/";
+
+//登录
+"sg_login_serverReturnData_error" 				= "Login failure";
+"sg_login_server_return_data_incomplete" 		= "Data error";
+"sg_login_userName" 							= "Please enter an email address ";
+"sg_login_pwd" 									= "Please create a password";
+"sg_login_login" 								= "Log in";
+
+// 第三方登录
+"sg_foreign_login_id_null" 				= "Obtain failed";
+"sg_foreign_login_view_controll_nil" 	= "System error";
+"sg_is_not_facebook_user" 				= "The player is not signed in with Facebook account, please re-login with your Facebook account";
+"sg_get_facebook_user_fail" 			= "Facebook friends failed to sync ";
+
+//首次登录界面
+"sg_login_text" = "Log in";
+"sg_login_username_null" = "Account cannot be empty";
+"sg_login_username_invalid" = "Please enter the correct email account";
+"sg_login_password_null" = "Please enter the password";
+"sg_login_password_error" = "Password is wrong";
+"sg_login_failed" = "Username or password incorrect";
+
+
+//再次登录
+"sg_auto_guest_login_comforn" = "Confirm";
+"sg_login2_otherLogin" = "Other account";
+"sg_auto_login_loading" = "Signing in….";
+"sg_auto_login_swith_account" = "Switching account";
+"sg_auto_login_error" = "Login failed ";
+
+//登录完成欢迎界面
+"sg_welcome_tip" = " ,Welcome back";
+
+//facebook 分享
+"sg_fb_share_url"       = "http://share.sgplayer.com/emdxc/shares_fb.html";
+
+"sg_fb_friends_fail"    = "Facebook friends failed to sync!";
+
+
+// 提示绑定
+//"sg_bind_account_pay" 		= "需要绑定帐号才能充值";
+"sg_tip_title" 				= "A friendly reminder";
+"sg_confirm" 				= "Confirm";
+"sg_system_error" 			= "System is busy, please try again later";
+"sg_error_network" 			= "Network connection failed ";
+"sg_bind_account_tip" 		= "You are now using a guest account, please link to your official account for security";
+"sg_email_subject" 			= "Game feedback";
+"sg_timeOut_network" 		= "Request timed out, please try again later";
+"sg_cancel" 				= "Cancel";
+"sg_continueGame" 			= "Continue";
+
+//重置密码1
+"sg_send_reset_pwd_email" 		= "Reset password";
+"sg_reset_account" 				= "Please enter the email account for recovery";
+"sg_reset_emailTip" 			= "Please enter an email address";
+"sg_reset_email_success"		= "A password reset email is sent to your email address, please create a new password in it.";
+"sg_reset_email_comform_title" 	= "Confirm";
+
+
+//注册
+"sg_reg_user_name" 			= "Email address";
+"sg_reg_pwd" 				= "Please create a password";
+"sg_reg_re_pwd" 			= "Please re-enter the new password ";
+"sg_reg_button" 			= "Register ";
+"sg_reg_email_empty" 		= "Please enter an email address for registration";
+"sg_reg_email_format_error" = "Email address incorrect ";
+"sg_reg_pwd_empty" 			= "Password or confrim password cannot be empty";
+"sg_reg_pwd_not_same" 		= "Password and confirm password are not the same";
+"sg_reg_pwd_format_error" 	= "Password must be between 6-20 characters long";
+"sg_reg_fail" 				= "Sign up falied! Please check your network";
+
+
+//绑定
+"sg_bind_button"	= "Link up";
+
+
+//游客充值
+"sg_touristPay_on_tip" 			= "For your account security, link your account is highly recommanded before next step";
+"sg_touristPay_on_continue" 	= "Continue recharging ";
+
+"sg_touristPay_off_tip" 		= "For your account security, link your account is highly recommanded before next step";
+"sg_touristPay_off_continue" 	= "Link your email to account ";
+
+//支付
+"sg_pay_userInfo_null" 				= "Account information cannot be empty";
+"sg_pay_exist_unFinishOrder" 		= "Payment incomplete, please restart the game or contact our help team";
+"sg_pay_alert_limitIAP_tip" 		= "In-App Purchases is disabled ";
+"sg_pay_alert_limitIAP_sulotion" 	= "Go to Settings > General > Restrictions > Enable Restrictions > Turn on In-App Purchases";
+
+"sg_pay_alert_limitIAP_cancel" 		= "Yes";
+"sg_pay_alert_limitIAP_agree" 		= "Yes";
+"sg_pay_alert_limitIAP_goSetting" 	= "Yes";
+
+"sg_pay_roleInfo_null_roleId" 		= "System Error";
+"sg_pay_roleInfo_null_roleName" 	= "System Error";
+"sg_pay_roleInfo_null_roleLevel" 	= "System Error";
+"sg_pay_roleInfo_null_serverId" 	= "System Error";
+"sg_pay_roleInfo_null_serverName" 	= "System Error";
+"sg_pay_payInfo_null_gameOrderNO" 	= "System Error";
+"sg_pay_payInfo_null_productId" 	= "System Error";
+"sg_pay_payInfo_null_productName" 	= "System Error";
+"sg_pay_payInfo_null_productDesc" 	= "System Error";
+"sg_pay_payInfo_null_productExt" 	= "System Error";
+"sg_pay_payInfo_null_price" 		= "System Error";
+"sg_pay_payInfo_null_amount" 		= "System Error";
+
+"sg_pay_request_order" 				= "Payment information is  required ";
+"sg_pay_request_order_success" 		= "Order received successfully";
+"sg_pay_request_order_null" 		= "Data error";
+"sg_pay_request_order_fail" 		= "Data error";
+"sg_pay_request_iap_error_tip" 		= "Purchase failed ";
+"sg_pay_iap_success" 				= "Purchase succeeded ";
+
+
+"sg_pay_request_iap_error" = "System Error";
+"sg_pay_request_iap_ReceiveResponse_error" = "System Error";
+"sg_pay_iap_restored" = "Restoring purchased product";
+"sg_pay_transaction_error" = "Please use sandbox test account";
+"sg_pay_iap_verify_null" = "Order Error";
+"sg_pay_iap_verify_buzy" = "Order busy, please try again later";
+"sg_pay_iap_verify_fail" = "Order Error";
+
+"sg_pay_yeepay_submit_success" = "Top-up succeed";
+"sg_pay_re_submit_success" = "Unsent order detected ";
+"sg_pay_price_currency" = "Currency";
+"sg_pay_request_order" = "Payment information required ";
+"sg_pay_request_order_success" = "Order received successfully";
+"sg_pay_request_order_null" = "Data error ";
+"sg_pay_request_order_fail" = "Data error ";
+"sg_pay_request_iap_error_tip" = "Purchase failed ";
+"sg_pay_request_iap_error" = "System error";
+"sg_pay_request_iap_ReceiveResponse_error" = "System error";
+"sg_pay_iap_restored" = "Restoring purchased product";
+"sg_pay_transaction_error" = "Please use sandbox test account";
+"sg_pay_iap_verify_null" = "Order Error";
+"sg_pay_iap_verify_buzy" = "Order busy, please try again later";
+"sg_pay_iap_verify_fail" = "Order Error";
+"sg_pay_iap_uploadLog" = "Purchase failed ";
